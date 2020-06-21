@@ -1,0 +1,22 @@
+.thumbnail-container {
+  margin-top: calc(50vh - 300px);
+  margin-left: calc(50% - 200px);
+}
+
+.thumbnail {
+  width: 400px;
+  height: 600px;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+}
+
+.thumbnail img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 100%;
+}

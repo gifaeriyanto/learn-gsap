@@ -1,0 +1,15 @@
+.loader {
+  display: flex;
+  justify-content: space-between;
+  width: 120px;
+  margin-top: 50vh;
+  margin-left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.loader div {
+  width: 20px;
+  height: 20px;
+  background-color: #2ecc71;
+  border-radius: 50%;
+}
